@@ -12,17 +12,25 @@ Mostly students use in-built codes.
 ### DESKTOP (WINDOWS/LINUX)
 <ul>
 	<li> Download and install R
-		<ol>
+		<ul>
 			<li> Windows: https://cran.r-project.org/bin/windows/base/ </li>
 			<li> Linux: Open your Package Manager and install r-base </li>
-		</ol>
+		</ul>
 	</li>
 	<li> Download and install R-Studio (Windows/Linux)
-		<li> Link: https://www.rstudio.com/products/rstudio/download/#download <\li>
-		<li> Double click to run installer. </li>
+		<ul>
+			<li> Link: https://www.rstudio.com/products/rstudio/download/#download <\li>
+			<li> Double click to run installer. </li>
+		</ul>
 	</li>
-USING JUPYTER
-•	Open R Console
-> *	install.packages("IRkernel")
-> *	IRkernel::installspec()
-•	After  installing successfully, run “jupyter notebook” and under new, pick R as Kernel. 
+</ul>
+### USING JUPYTER
+<ul>
+	<li> Open R Console
+		<ul>
+			<li>```install.packages("IRkernel")```</li>
+			<li> ```IRkernel::installspec()```</li>
+		</ul>
+	</li>
+	<li> After  installing successfully, run “jupyter notebook” and under new, pick R as Kernel. </li>
+</ul>

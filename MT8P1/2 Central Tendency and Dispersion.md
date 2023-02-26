@@ -1,7 +1,7 @@
 ### Experiment 2 ###
 # Computation of Central Tendency and Dispersion #
 ## Measures of Central Tendency ##
-### Mean ###
+### Numerical Average: Arithmetic Mean ###
 Arithmetic mean, or simply referred to as Mean for the data $X = (x_1,x_2,...,x_n)$ is given by 
  $$\bar{X} = \left({\sum_{i=1}^n x_i}\right)/{n}$$
  
@@ -35,3 +35,26 @@ Alternatively,
   X = c(...)
   m = sum(X*f)/sum(f)
   ```
+
+### Positional Central Tendencies: Median ###
+Median is middle value of the data points after arranging them in ascending or descending order.
+
+#### R Programming ####
+Median of a dataset ```X``` can be found using:
+```R
+ X = c(...)
+ m1 = median(X)
+ ```
+ 
+### Positional Central Tendencies: Mode ###
+Mode is the most recurring data point in the given variable. Calculation of mode is not direct in R as the function ```mode``` has a different meaning. But it can be achieved with a simple two-line special function:
+
+#### R Programming ####
+```R
+find_mode = function(x) {
+  u = unique(x)
+  tab = tabulate(match(x, u))
+  u[tab == max(tab)]
+}
+find_mode(trees$Girth)
+```

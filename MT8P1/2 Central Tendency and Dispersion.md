@@ -3,10 +3,10 @@
 ## Measures of Central Tendency ##
 ### Mean ###
 Arithmetic mean, or simply referred to as Mean for the data $X = (x_1,x_2,...,x_n)$ is given by 
- $$\bar{X} = {\sum_{i=1}^n x_i}/{n}$$
+ $$\bar{X} = \left({\sum_{i=1}^n x_i}\right)/{n}$$
  
 If the data is a frequency table, $X = ((x_1,f_1),(x_2,f_2),...,(x_n,f_n))$, then 
-$$\bar{X} = {\sum_{i=1}^n x_i\times f_i}/{\sum_{i=1}^n f_i}$$
+$$\bar{X} = \left({\sum_{i=1}^n x_i\times f_i}\right)/{\sum_{i=1}^n f_i}$$
 
 #### R Programming ####
 Mean of a dataset ```X``` can be found using:

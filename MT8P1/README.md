@@ -36,3 +36,16 @@ Mostly students use in-built codes.
 	</li>
 	<li> After  installing successfully, run “jupyter notebook” and under new, pick R as Kernel. </li>
 </ul>
+
+
+## Running Theme ##
+We usually make them pick a particular dataset, preferrably relevant to them and make them draw conclusions, so that they see their learning in action and also, train themselves to chase open-ended questions. Some qualities of the dataset should be:
+1. At least three columns in the table, of which one is nominal, two are numeric. They can use nominal data to filter and derive observations.
+2. Serve the data in a CSV file, or even better, make students generate that CSV file.
+3. Data should ideally contain unrealistic number of points: a minimum of 30, so that manual calculation is hard, but not impossible.
+4. Preferably choose a data which is best represented by different central tendencies.
+
+Some sample data that can be used are:
+1. VARK results of the entire class, with extra tag of gender.
+2. Marks in the previous semester, anonymised.
+
